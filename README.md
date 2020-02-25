@@ -1,18 +1,21 @@
 # Purpose
 Generates an SQL insert script based on data.
-Useful when developing databases and an insert script should be defined as possible post-deploy step.
+Useful when developing databases and an insert script should be defined as post-deploy step.
 
 
 ```python
 from data_to_sql_insert.script import df_to_SQL_insert
 
 # Define a dataframe
-# Table: SchemaName.TableName
+# Table example:
+# SchemaName.TableName
+#
 #   col1  |  col2  |  col3
 # --------------------------
 #   abc  |  val1  |  1
 #   def  |  val2  |  2
 #   hij  |  val3  |  3
+#
 # See pandas data frame
 
 sql_script = df_to_SQL_insert(df, table="TableName", schema="SchemaName")

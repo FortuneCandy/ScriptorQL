@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="data_to_sql_insert",
-    version="0.0.3",
+    name="ScriptorQL",
+    version="0.0.1",
     author="Arne Goossens",
     author_email="FortuneCandy99@gmail.com",
     description=("Generates SQL insert values script for data"),
@@ -16,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/FortuneCandy/data-to-sql-insert",
+    url="https://github.com/FortuneCandy/ScriptorQL",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
