@@ -7,6 +7,12 @@ Useful when developing databases and an insert script should be defined as possi
 from data_to_sql_insert.script import df_to_SQL_insert
 
 # Define a dataframe
+# Table: SchemaName.TableName
+#   col1  |  col2  |  col3
+# --------------------------
+#   abc  |  val1  |  1
+#   def  |  val2  |  2
+#   hij  |  val3  |  3
 # See pandas data frame
 
 sql_script = df_to_SQL_insert(df, table="TableName", schema="SchemaName")
