@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="data_to_sql_insert",
-    version="0.0.2",
+    version="0.0.3",
     author="Arne Goossens",
     author_email="FortuneCandy99@gmail.com",
     description=("Generates SQL insert values script for data"),

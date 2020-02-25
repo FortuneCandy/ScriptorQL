@@ -8,7 +8,7 @@ import os
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, PROJECT_DIR)
 
-from data_to_sql_insert.core import df_to_SQL_insert
+from data_to_sql_insert.script import df_to_SQL_insert
 
 # Variables
 server = '.\\sql2016'

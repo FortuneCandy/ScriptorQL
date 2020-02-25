@@ -2,7 +2,7 @@ import sqlalchemy
 import pandas as pd
 import urllib
 
-from data_to_sql_insert.core import df_to_SQL_insert
+from data_to_sql_insert.script import df_to_SQL_insert
 
 # Variables
 server = '.\\sql2016'
