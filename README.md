@@ -4,7 +4,7 @@ Useful when developing databases and an insert script should be defined as post-
 
 
 ```python
-from data_to_sql_insert.script import df_to_SQL_insert
+from ScriptorQL.script import df_to_SQL_insert
 
 # Define a dataframe
 # Table example:
