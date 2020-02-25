@@ -7,9 +7,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="data_to_sql_insert",
-    version="0.0.1",
+    version="0.0.2",
     author="Arne Goossens",
-    author_email="/",
+    author_email="FortuneCandy99@gmail.com",
     description=("Generates SQL insert values script for data"),
     license="GNU GENERAL PUBLIC LICENSE Version 3",
     keywords="Generate SQL insert values script",
@@ -18,7 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/FortuneCandy/data-to-sql-insert",
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Programming Language :: Python :: 3",
